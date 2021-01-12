@@ -30,6 +30,7 @@ nav ul.nav-menu li {
 }
 
 nav .dropdown {
+  padding: 20px;
   display: none;
   flex-direction: column;
   position: absolute;
@@ -37,6 +38,8 @@ nav .dropdown {
   right: 50%;
   transform: translateX(50%);
   box-shadow: 1px 1px 10px black;
+  white-space: nowrap;
+  border-radius: 5px;
 }
 
 nav .dropdown.active {
@@ -44,6 +47,7 @@ nav .dropdown.active {
 }
 
 nav .dropdown.active span {
+  margin: 10px;
   line-height: 1.6;
   color: grey;
 }
